@@ -32,23 +32,24 @@ class SplashFragment : Fragment() {
         binding.dashLottie.playAnimation()
 
         binding.dashLottie.addAnimatorListener(object : Animator.AnimatorListener{
-            override fun onAnimationStart(p0: Animator?) {
+            override fun onAnimationStart(p0: Animator) {
                 Handler(Looper.getMainLooper()).postDelayed({
                     binding.welTxt.visibility = View.VISIBLE
                 }, 2000)
             }
 
-            override fun onAnimationEnd(p0: Animator?) {
+            override fun onAnimationEnd(p0: Animator) {
                 val direction = SplashFragmentDirections.actionSplashFragmentToCategoryFragment()
                 findNavController().navigate(directions = direction)
 
             }
 
-            override fun onAnimationCancel(p0: Animator?) {
+            override fun onAnimationCancel(p0: Animator) {
             }
 
-            override fun onAnimationRepeat(p0: Animator?) {
+            override fun onAnimationRepeat(p0: Animator) {
             }
+
         })
     }
 
