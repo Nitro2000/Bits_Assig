@@ -8,6 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="categoryItem">#FBEE5E</color>
-    <color name="bottom_line">#EDEFF1</color>
+    <color name="bottom_line">#EEEEEE</color>
     <color name="dark_black">#131516</color>
 </resources>

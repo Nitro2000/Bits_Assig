@@ -16,8 +16,6 @@
             android:id="@+id/catAppBar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:paddingHorizontal="16dp"
-            android:paddingVertical="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -48,7 +46,7 @@
             <View
                 android:id="@+id/headBottomView"
                 android:layout_width="0dp"
-                android:layout_height="4dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="12dp"
                 android:background="@color/bottom_line"
                 app:layout_constraintEnd_toEndOf="parent"
